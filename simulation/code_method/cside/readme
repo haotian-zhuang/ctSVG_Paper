@@ -1,0 +1,62 @@
+human_crc
+cc
+   0    1    2 
+6609 2630  761
+Done!
+
+human_lungcancer
+cc
+   0    1 
+6654 3346
+Done!
+
+human_pancreas
+cc
+   0    1    2    3 
+9010  503  311  176
+Done!
+
+mouse_brain
+cc
+   0    1    2    3    4    5 
+4272 2779 1238  933  403  375 
+
+Error in find_sig_genes_individual(cell_type, cell_types, gene_fits, gene_list_type,  : 
+  find_sig_genes_individual: cell type 4 has not converged on any genes. Consider removing this cell type from the model using the cell_types option.
+[remove cell type 4]
+Error in find_sig_genes_individual(cell_type, cell_types, gene_fits, gene_list_type,  : 
+  find_sig_genes_individual: cell type 5 has not converged on any genes. Consider removing this cell type from the model using the cell_types option.
+[remove cell type 5]
+Done!
+
+mouse_embryo
+cc
+   0    1    2    3    4    5    6    7 
+4061 2325 1278 1246  440  380  139  131
+
+Error in find_sig_genes_individual(cell_type, cell_types, gene_fits, gene_list_type,  : 
+  find_sig_genes_individual: cell type 7 has not converged on any genes. Consider removing this cell type from the model using the cell_types option.
+[remove cell type 7]
+Done!
+
+mouse_intestine
+cc
+   0    1    2    3 
+5706 3900  324   70
+Done!
+
+mouse_kidney
+cc
+   0    1    2    3    4    5 
+3278 2407 2131 1257  828   99
+
+...
+1928
+1929
+1930
+Error in eigen(H) : infinite or missing values in 'x'
+[remove "Creb1"]
+Error in find_sig_genes_individual(cell_type, cell_types, gene_fits, gene_list_type,  : 
+  find_sig_genes_individual: cell type 5 has not converged on any genes. Consider removing this cell type from the model using the cell_types option.
+[remove cell type 5]
+Done!
